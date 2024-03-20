@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background:rgb(237, 215, 175);
+    font-family: Space Mono;
+}
+    
+
+.header__container {
+    width: 920px;
+    height: 481px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 80px;
+    border-radius: 25px;
+    background: #FFF;
+    box-shadow: 0px 32px 43px 0px rgba(79, 166, 175, 0.20);
+    padding-left: 48px;
+    gap: 35px;
+}
+
+.header__container .btn .logo  h3 {
+    color: #5E7A7D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 6px;
+}
+
+.header__container .btn .button  h3 {
+    color: #5E7A7D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 16px;
+}
+
+.header__container .btn .input  h3 {
+    color: #5E7A7D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header__container .btn .logo button {
+    width: 379px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F3F9FA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    background: #F3F9FA;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.header__container .btn .logo button:hover {
+    border-radius: 5px;
+    border: 2px solid #26C2AE;
+    background: #F3F9FA;
+}
+
+.header__container .btn .button .button-one {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 379px;
+    height: 152px;
+    gap: 14px;
+}
+
+.header__container .btn .button  button {
+    width: 117px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #00474B;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    transition: all 0.5s;
+}
+
+.header__container .btn .button  button:hover {
+    background: #26C2AE;
+    color: #00474B;
+}
+
+.header__container .btn .button .button-one  .six input {
+    width: 118px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F3F9FA;
+    color: #547878;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+.header__container .btn .button .button-one  .six input:hover {
+    border-radius: 5px;
+    border: 2px solid #26C2AE;
+    background: #F3F9FA;
+    text-align: right;
+    opacity: 0.35;
+}
+
+.header__container .btn .button .button-one  .six .seven {
+    margin-bottom: 16px;
+}
+
+.header__container .btn .button .button-one  .four .seven {
+    margin-bottom: 16px;
+}
+
+.header__container .btn .button .button-one  .five .seven {
+    margin-bottom: 16px;
+}
+
+.header__container .btn .input .icon input {
+    width: 79px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    margin-left: 230px;
+    padding-top: 15px;
+    background: #F3F9FA;
+    border: none;
+}
+
+.header__container .btn .input .icon {
+    border: 2px solid;
+    background: #F3F9FA;
+    padding: 4px;
+    border-radius: 5px;
+    border: none;
+}
+
+.header__container .btn .input .icon svg {
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.header__container .btn .input .icon:hover {
+    border-radius: 5px;
+    border: 2px solid #E17052;
+    background: #F3F9FA;
+}
+
+.header__container .btn .input .icon input:hover {
+    opacity: 0.35;
+    border: none;
+}
+
+.header__container .btn-one {
+    width: 413px;
+    height: 417px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #00474B;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+.header__container .btn-one .number {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 53px;
+    color: #26C2AE;
+    text-align: right;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1px;
+}
+
+.header__container .btn-one .number p {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header__container .btn-one .number p span{
+    color: #7F9D9F;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-right: 30px;
+}
+
+.header__container .btn-one .number-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 134px;
+}
+
+.header__container .btn-one .number-one p span{
+    color: #7F9D9F;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header__container .btn-one .number-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 53px;
+    color: #26C2AE;
+    text-align: right;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1px;
+}
+
+.header__container .btn-one .number-one p {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header__container .btn-one button {
+    width: 333px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #26C2AE;
+    border: none;
+    color: #00474B;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 50px;
+    transition: all 0.5s;
+}
+
+.header__container .btn-one button:hover {
+border-radius: 5px;
+background: #9FE8DF;
+}
+
+.header__container .btn-one button:active {
+    border-radius: 5px;
+    background: #0D686D;
+    opacity: 0.35;
+}
+
+@media (max-width:400px;) {
+    .header__container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
